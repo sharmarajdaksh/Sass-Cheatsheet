@@ -73,9 +73,9 @@ You can import the styles to another file, using
 Mixins are like functions which allow us to set a code block for repetitive code snippets to use wherever that code block is necessary.
 
 <code>@mixin mixinName {
-	<br> &nbsp;
+	<br/> &nbsp;
 	// scss style block here
-	<br>
+	<br/>
 }</code>
 
 Wherever you want to use the style block, say, in a div element, you can use the mixin:
@@ -120,6 +120,7 @@ To inherit styles, you can extend the styles of another css selector. For exampl
 	@extend .className;
 	<br>
 }<br></code>
+
 The above will add to the div all the styles defined for the .className selector.
 
 **REMEMBER** : Stylesheets work top-to-bottom. Styles defined lower will overload styles defined higher.
